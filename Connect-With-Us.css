@@ -1,0 +1,70 @@
+<style>
+.asyoutube{box-shadow:rgba(23,43,99,.3) 0 0px 15px;border-radius:25px;
+position:relative;display:flex;align-items:center;width:100%;margin:15px 0 0;padding:12px 15px;border:1px solid #ebeced;border-radius:3px;color:#161617;overflow:hidden}
+.asyoutube .asyoutube-img{width:50px;height:50px}
+.asyoutube .asyoutube-img span{display:flex;align-items:center;justify-content:center;height:100%;background-color:#ebeced;border-radius:8px;color:#505050;font-weight:700;font-size:28px}
+.asyoutube .asyoutube-content{width:calc(100% - 50px);padding-right:15px}
+.asyoutube .asyoutube-content .title{display:block;font-weight:700;font-size:12px;margin:0}
+.asyoutube .asyoutube-content .desc{display:block;font-size:11px;margin-top:2px;color:#505050}
+.asyoutube.fletro{border:0;background-color:#CFEDEB;box-shadow:0 4px 18px 0 rgba(9,32,76,.035);justify-content:space-between;padding:0;overflow:visible}
+.asyoutube.fletro .asyoutube-content{width:calc(100% - 100px);padding:15px 10px 15px 15px}
+.asyoutube.fletro .asyoutube-img{width:100px;height:auto;flex-shrink:0}
+.asyoutube.fletro .asyoutube-img img{position:absolute;bottom:0;right:0;max-width:110px}
+.asyoutube.discount:after{content:'Subcribe';font-weight:700;font-size:12px;display:flex;align-items:center;
+justify-content:flex-end;width:70px;height:23px;padding-right:10px;background-color:#fd2929;
+border-radius:80px 0 0 0;color:#ffffff;position:absolute;bottom:0;right:0}
+</style>
+
+<style>
+.asinsta{box-shadow:rgba(23,43,99,.3) 0 0px 15px;position:relative;display:flex;align-items:center;width:100%;margin:15px 0 0;padding:12px 15px;border:1px solid #ebeced;border-radius:3px;color:#161617;overflow:hidden}
+.asinsta .asinsta-img{width:50px;height:50px}
+.asinsta .asinsta-img span{display:flex;align-items:center;justify-content:center;height:100%;background-color:#ebeced;border-radius:8px;color:#505050;font-weight:700;font-size:28px}
+.asinsta .asinsta-content{width:calc(100% - 50px);padding-right:15px}
+.asinsta .asinsta-content .title{display:block;font-weight:700;font-size:12px;margin:0}
+.asinsta .asinsta-content .desc{display:block;font-size:11px;margin-top:2px;color:#505050}
+.asinsta.fletro{border:0;background-color:#CFEDEB;box-shadow:0 4px 18px 0 rgba(9,32,76,.035);justify-content:space-between;padding:0;overflow:visible}
+.asinsta.fletro .asinsta-content{width:calc(100% - 100px);padding:15px 10px 15px 15px}
+.asinsta.fletro .asinsta-img{width:100px;height:auto;flex-shrink:0}
+.asinsta.fletro .asinsta-img img{position:absolute;bottom:0;right:0;max-width:110px}
+.asinsta.discount:after{content:'Follow';font-weight:700;font-size:12px;display:flex;align-items:center;
+justify-content:flex-end;width:70px;height:20px;
+padding-right:15px;background-color:#cd486b;
+border-radius:80px 0 0 0;color:#ffffff;position:absolute;bottom:0;right:0}
+</style>
+
+<style>
+.astwitter{box-shadow:rgba(23,43,99,.3) 0 0px 15px;position:relative;display:flex;align-items:center;width:100%;margin:15px 0 0;padding:12px 15px;border:1px solid #ebeced;border-radius:3px;color:#161617;overflow:hidden}
+.astwitter .astwitter-img{width:50px;height:50px}
+.astwitter .astwitter-img span{display:flex;align-items:center;justify-content:center;height:100%;background-color:#ebeced;border-radius:8px;color:#505050;font-weight:700;font-size:28px}
+.astwitter .astwitter-content{width:calc(100% - 50px);padding-right:15px}
+.astwitter .astwitter-content .title{display:block;font-weight:700;font-size:12px;margin:0}
+.astwitter .astwitter-content .desc{display:block;font-size:11px;margin-top:2px;color:#505050}
+.astwitter.fletro{border:0;background-color:#CFEDEB;box-shadow:0 4px 18px 0 rgba(9,32,76,.035);justify-content:space-between;padding:0;overflow:visible}
+.astwitter.fletro .astwitter-content{width:calc(100% - 100px);padding:15px 10px 15px 15px}
+.penawaran3.fletro .penawaran3-img{width:100px;height:auto;flex-shrink:0}
+.astwitter.fletro .astwitter-img img{position:absolute;bottom:0;right:0;max-width:110px}
+.astwitter.discount:after{content:'Follow';font-weight:700;font-size:12px;display:flex;align-items:center;
+justify-content:flex-end;width:70px;height:20px;
+padding-right:15px;background-color:#1DA1F2;
+border-radius:80px 0 0 0;color:#ffffff;position:absolute;bottom:0;right:0}
+</style>
+
+
+<style>
+/* Telegram Widget CSS */
+.astelegram{box-shadow:rgba(23,43,99,.3) 0 0px 15px;position:relative;display:flex;align-items:center;width:100%;margin:15px 0 0;padding:12px 15px;border:1px solid #ebeced;border-radius:3px;color:#161617;overflow:hidden}
+.astelegram .astelegram-img{width:50px;height:50px}
+.astelegram .astelegram-img span{display:flex;align-items:center;justify-content:center;height:100%;background-color:#ebeced;border-radius:8px;color:#505050;font-weight:700;font-size:28px}
+.astelegram .astelegram-content{width:calc(100% - 50px);padding-right:15px}
+.astelegram .astelegram-content .title{display:block;font-weight:700;font-size:12px;margin:0}
+.astelegram .astelegram-content .desc{display:block;font-size:11px;margin-top:2px;color:#505050}
+.astelegram.fletro{border:0;background-color:#CFEDEB;box-shadow:0 4px 18px 0 rgba(9,32,76,.035);justify-content:space-between;padding:0;overflow:visible}
+.astelegram.fletro .astelegram-content{width:calc(100% - 100px);padding:15px 10px 15px 15px}
+.astelegram.fletro .astelegram-img{width:100px;height:auto;flex-shrink:0}
+.astelegram.fletro .astelegram-img img{position:absolute;bottom:0;right:0;max-width:110px}
+.astelegram.discount:after{content:'Join Now';
+font-weight:700;font-size:12px;display:flex;align-items:center;justify-content:flex-end;
+width:75px;height:20px;
+padding-right:10px;background-color:#29c1fd;
+border-radius:80px 0 0 0;color:#ffffff;position:absolute;bottom:0;right:0}
+</style>
