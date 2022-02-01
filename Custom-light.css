@@ -5,10 +5,28 @@
 /* Source Code Font */ 
 @font-face {font-family: 'Fira Mono';font-style: normal;font-weight: 400;font-display: swap;src: local('Fira Mono Regular'), local('FiraMono-Regular'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtQIg.woff) format('woff'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format('woff2')}
 
-/* Notif Section */
- .ntfC{ box-shadow: rgb(94 94 94) 0 4px 5px; background-image: linear-gradient(to right, #12d8fa 0%, #1fa2ff 50%, #12d8fa 100%); border-radius: 15px;  display: flex; align-items: center;  min-height: var(--notifH); color: var(--notifC); padding: 10px 25px; font-size: 13px; transition: var(--trans-1); overflow: hidden;} 
-@media screen and (max-width:896px){
-.ntfC {padding-left: 20px; padding-right: 20px;
+/* custom css start */
+
+/*Table of Contents*/
+details.sp { font-size: .93rem; padding: 25px 25px 25px 45px; border: 1px solid #989b9f; border-left: 0; border-right: 0; line-height: 1.7em;
+}  
+/*Shadow Style*/
+.pShc >*, .blogPg >*,.pInf.ps,.cmBtn,.wL.cl .lbN,.follow-widget,.ntfC {border: var(--headerL) solid var(--contentL); box-shadow: rgb(106 144 255) 0 2px 5px;
 }
+/*Image*/
+/*.pS img {box-shadow: rgb(106 144 255 / 68%) 0 0px 20px
+}*/
+/*heading*/
+.h22,.h33,.h44,.h55,.h66 {color: whitesmoke!important;font-weight: 600;background-image: linear-gradient(to right, #12d8fa 0%, #1fa2ff 50%, #12d8fa 100%);padding: 10px 10px 10px 35px;border-radius: 8px;padding: 12px;box-shadow:rgb(106 144 255 / 68%) 0 0px 20px;}
+.h22 {font-size: 25px !important;}
+.h33 {font-size: 21px !important;}
+.h44 {font-size: 17px !important;}
+.h55 {font-size: 15px !important;}
+.h66 {font-size: 13px !important;}
+.size-full {box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);border-radius: 15px;
+}
+/* Notif Section */
+ .ntfC{ border-radius: 15px; min-height: var(--notifH); color: var(--notifC); font-size: 13px; transition: var(--trans-1); } 
+
 
 /*]]>*/</style>
