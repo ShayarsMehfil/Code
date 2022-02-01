@@ -6,7 +6,7 @@
 @font-face {font-family: 'Fira Mono';font-style: normal;font-weight: 400;font-display: swap;src: local('Fira Mono Regular'), local('FiraMono-Regular'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtQIg.woff) format('woff'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format('woff2')}
 
 /* custom css start */
-
+.itm {content-visibility: auto;}
 /*Table of Contents*/
 details.sp { font-size: .93rem; padding: 25px 25px 25px 45px; border: 1px solid #989b9f; border-left: 0; border-right: 0; line-height: 1.7em;
 }  
