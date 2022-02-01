@@ -26,7 +26,10 @@ details.sp { font-size: .93rem; padding: 25px 25px 25px 45px; border: 1px solid 
 .size-full {box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);border-radius: 15px;
 }
 /* Notif Section */
- .ntfC{ border-radius: 15px; min-height: var(--notifH); color: var(--notifC); font-size: 13px; transition: var(--trans-1); } 
-
-
+.ntfC{ border-radius: 15px; min-height: var(--notifH); color: var(--notifC); font-size: 13px; transition: var(--trans-1); } 
+.main-menu{border-bottom:0 solid rgba(230,230,230,.5);margin-bottom:15px; overflow:hidden;font-weight:700;font-size:100%}
+.main-menu ul{margin:0;padding:0;list-style:none;white-space:nowrap}
+.main-menu li{margin:1px 2px 1px 2px; border: 1px solid var(--bodyCa);border-radius: 13px;}
+.main-menu li:hover {background-image: linear-gradient(to right, #b3b3b3 0%,#ffffff 50%, #c1c1c1 100%);border: 1px #dbdbdb;-webkit-transition: all 250ms linear;transition: all 250ms linear;}
+.main-menu li > *{display:block;font-weight:900;font-size:110%;color:#000000;position:relative}
 /*]]>*/</style>
