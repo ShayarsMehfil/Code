@@ -11,7 +11,7 @@
 details.sp { font-size: .93rem; padding: 25px 25px 25px 45px; border: 1px solid #989b9f; border-left: 0; border-right: 0; line-height: 1.7em;
 }  
 /*Shadow Style*/
-.pShc >*, .blogPg >*,.pInf.ps,.cmBtn,.wL.cl .lbN,.follow-widget,.ntfC {border: var(--headerL) solid var(--contentL); box-shadow: rgb(106 144 255) 0 2px 5px;
+.pShc >*, .blogPg >*,.pInf.ps,.cmBtn,.wL.cl .lbN,.follow-widget,.ntfC,.related-simplify {border: var(--headerL) solid var(--contentL); box-shadow: rgb(106 144 255) 0 2px 5px;
 }
 /*Image*/
 /*.pS img {box-shadow: rgb(106 144 255 / 68%) 0 0px 20px
