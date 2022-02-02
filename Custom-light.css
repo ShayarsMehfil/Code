@@ -32,4 +32,14 @@ details.sp { font-size: .93rem; padding: 25px 25px 25px 45px; border: 1px solid 
 .main-menu li{margin:1px 2px 1px 2px; border: 1px solid var(--bodyCa);border-radius: 13px;}
 .main-menu li:hover {background-image: linear-gradient(to right, #b3b3b3 0%,#ffffff 50%, #c1c1c1 100%);border: 1px #dbdbdb;-webkit-transition: all 250ms linear;transition: all 250ms linear;}
 .main-menu li > *{display:block;font-weight:900;font-size:110%;color:#000000;position:relative}
+
+.pt-wrapper {margin:auto; display: flex; }
+.pt {--pricing-table-color: #3676ec; grid-template-columns: repeat(auto-fit, minmax(12em, 1fr));grid-gap: 1px; padding: 0;list-style-type: none;}
+.pt-title {box-shadow: rgb(106 144 255) 0 2px 10px;border-radius: 5px;background-image: linear-gradient(to right, #12d8fa 0%, #1fa2ff 50%, #12d8fa 100%);margin-top: auto; font-size: 1.7em;text-transform: none;width: 100%;color: #000000;margin: 0;}
+.pt-silo1 {align-items: center; box-shadow:rgb(23 43 99 / 15%) 0 2px 15px; transition: box-shadow 200ms cubic-bezier(0.02, 0.01, 0.47, 1), transform 200ms cubic-bezier(0.02, 0.01, 0.47, 1);}
+.pt-products {margin-bottom: 0em; margin-top: 0.6em;list-style-type: none;}
+.pt-product {align-items: center; font-weight: bold; margin-bottom: 0.4em;}
+.pt-item-popular::before { position: absolute; content: attr(data-popular); top: 2em; right: 2em; font-size: 0.9em;padding: 0 1em;background-color: #ffd900;border-radius: 0.1em;color: #282824;}
+.pt-product::before {content: ' '; width: 0.5em; height: 0.5em; margin-inline-end:1em; border-radius: 20%;background-color: var(--pricing-table-color);border-radius: 50%;}
+
 /*]]>*/</style>
