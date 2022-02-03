@@ -5,6 +5,11 @@
 /* Source Code Font */ 
 @font-face {font-family: 'Fira Mono';font-style: normal;font-weight: 400;font-display: swap;src: local('Fira Mono Regular'), local('FiraMono-Regular'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtQIg.woff) format('woff'), url(https://fonts.gstatic.com/s/firamono/v9/N0bX2SlFPv1weGeLZDtgJv7S.woff2) format('woff2')}
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html {box-sizing: border-box;}        
+*,*:before,*:after {box-sizing: inherit;}
+body {font: 100%/1.6 'Roboto', sans-serif;padding: 2rem 1rem;}
+
 /* custom css start */
 .itm {content-visibility: auto;}
 /*Table of Contents*/
